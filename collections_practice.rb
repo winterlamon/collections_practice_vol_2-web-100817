@@ -78,15 +78,15 @@ merge_data = {
 =end
 
 def merge_data(keys, data)
-#  keys.collect do |hash_key|
-#    data.collect do |data_hash|
+  keys.collect do |hash_key|
+    data.collect do |data_hash|
 #      if hash_key.values == data.keys
-#        data.keys.replace(hask_key)
+#        data.replace(hask_key)
         binding.pry
 #      end
 #    hash_key
-#end
-#end
+end
+end
 
 end
 
@@ -116,4 +116,3 @@ def organize_schools(schools)
   end
   new_hash
 end
-
