@@ -89,11 +89,11 @@ def merge_data(keys, data)
 
 
        end
-       return merged_hash.reduce(&:merge)
+#       return merged_hash.reduce(&:merge)
         #end
       end
     end
-#    hash_key
+    return merged_hash.reduce(&:merge)
   end
 
 
