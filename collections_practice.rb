@@ -89,7 +89,7 @@ def merge_data(keys, data)
 
 
        end
-merged_hash = merged_hash.reduce(:merge)
+merged_hash = [merged_hash.reduce(:merge)]
 binding.pry
 #       return merged_hash.reduce(&:merge)
         #end
