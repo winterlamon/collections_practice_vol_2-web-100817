@@ -89,7 +89,7 @@ def merge_data(keys, data)
           merged_hash << name[attributes]
 
           merged_hash
-        end
+        #end
       end
     end
 #    hash_key
