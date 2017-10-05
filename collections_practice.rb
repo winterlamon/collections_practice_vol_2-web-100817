@@ -85,8 +85,9 @@ def merge_data(keys, data)
     data.collect do |data_hash|
       data_hash.collect do |name, attributes|
         if hash_key.values == name
-          merged_hash << name[attributes]
           binding.pry
+          merged_hash << name[attributes]
+          
           merged_hash
         end
       end
