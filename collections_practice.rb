@@ -87,7 +87,7 @@ def merge_data(keys, data)
         if hash_key.values == name
           binding.pry
           merged_hash << name[attributes]
-          
+
           merged_hash
         end
       end
