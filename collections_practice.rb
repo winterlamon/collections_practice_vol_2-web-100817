@@ -96,7 +96,7 @@ def merge_data(keys, data)
     end
 
   end
-return merged_hash
+ merged_hash
 #return merged_hash.reduce(:merge)
 end
 
