@@ -86,7 +86,7 @@ def merge_data(keys, data)
       data_hash.collect do |name, attributes|
         if hash_key.values == [name]
           merged_hash << attributes
-          merged_hash.reduce()
+          merged_hash.reduce({})
 
        end
 
