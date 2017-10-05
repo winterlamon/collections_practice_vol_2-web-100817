@@ -85,12 +85,12 @@ def merge_data(keys, data)
       data_hash.collect do |name, attributes|
         if hash_key.values == name
           merged_hash << attributes
+          binding.pry
         end
-        binding.pry
       end
     end
 #    hash_key
-end
+  end
 end
 
 end
