@@ -41,41 +41,6 @@ def count_elements(array)
    new_array
 end
 
-=begin
-
-merge_data = {
-  [
-    {:first_name => "blake"
-      "blake", :awesomeness => 10, :height => "74", :last_name => "johnson"},
-    {:first_name => "ashley", :awesomeness => 9,:height => 60, :last_name => "dubs"}
-  ]
-}
-
-{:first_name=>"blake"}
-["blake"=>
-   {:awesomeness=>10, :height=>"74", :last_name=>"johnson"},
-{:first_name=>"ashley"}
-"ashley"=>
-   {:awesomeness=>9, :height=>60, :last_name=>"dubs"}}]
-
-   keys => [{:first_name=>"blake"}, {:first_name=>"ashley"}]
-   data => [{"blake"=>{:awesomeness=>10, :height=>"74", :last_name=>"johnson"}, "ashley"=> {:awesomeness=>9, :height=>60, :last_name=>"dubs"}}]
-
-
-
-
-   keys => [{:first_name=>"blake"}, {:first_name=>"ashley"}]
-
-   data => [{
-   "blake"=>{:awesomeness=>10, :height=>"74", :last_name=>"johnson"},
-   "ashley"=> {:awesomeness=>9, :height=>60, :last_name=>"dubs"}
-   }]
-
-
-
-
-
-=end
 
 def merge_data(keys, data)
   merged_hash = []
