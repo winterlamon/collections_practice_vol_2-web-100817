@@ -86,7 +86,7 @@ def merge_data(keys, data)
       data_hash.collect do |name, attributes|
         hash_key.values == [name]
 
-          merged_hash << name[attributes]
+          merged_hash << attributes
 binding.pry
           merged_hash
         #end
