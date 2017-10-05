@@ -97,7 +97,7 @@ merged_data << merged_hash.reduce(:merge)
     end
 
   end
-return merged_data
+ merged_data
 #return merged_hash.reduce(:merge)
 end
 
