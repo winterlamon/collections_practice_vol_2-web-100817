@@ -87,7 +87,7 @@ def merge_data(keys, data)
         hash_key.values == [name]
 
           merged_hash << attributes
-binding.pry
+
           merged_hash.reduce(&:merge)
         #end
       end
