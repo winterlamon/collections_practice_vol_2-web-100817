@@ -78,9 +78,12 @@ merge_data = {
 =end
 
 def merge_data(keys, data)
+  merged_hash = {}
   keys.collect do |hash_key|
+    merged_hash << hash_key
     data.collect do |data_hash|
-#      if hash_key.values == data.keys
+#      if data_hash.includes
+#hash_key.values == data.keys
 #        data.replace(hask_key)
         binding.pry
 #      end
