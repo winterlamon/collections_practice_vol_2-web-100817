@@ -84,11 +84,11 @@ def merge_data(keys, data)
 
     data.collect do |data_hash|
       data_hash.collect do |name, attributes|
-        hash_key.values == [name]
-
+        if hash_key.values == [name]
           merged_hash << attributes
-binding.pry
+
          merged_hash.reduce(:merge)
+       end
         #end
       end
     end
