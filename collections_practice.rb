@@ -88,7 +88,7 @@ def merge_data(keys, data)
 
           merged_hash << attributes
 binding.pry
-         merged_hash.reduce(&:merge)
+         merged_hash.reduce(:merge)
         #end
       end
     end
