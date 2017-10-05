@@ -87,6 +87,7 @@ def merge_data(keys, data)
           merged_hash << attributes
         end
         binding.pry
+      end
     end
 #    hash_key
 end
